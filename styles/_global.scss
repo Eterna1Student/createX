@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Ubuntu-regular';
+    src: url('../fonts/ubuntu-r-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-r-webfont.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Ubuntu-bold';
+    src: url('../fonts/ubuntu-b-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-b-webfont.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato-black';
+    src: url('../fonts/lato-black-webfont.woff2') format('woff2'),
+         url('../fonts/lato-black-webfont.woff') format('woff');
+    font-weight: 900;
+}
+
+$white: #FFFFFF;
+$primary: #FF5A30;
+$success: #03CEA4;
+$danger: #FF4242;
+$warning: #F89828;
+$info: #5A87FC;
+$gray900: #1E212C;
+$gray800: #424551;
+$gray700: #787A80;
+$gray600: #9A9CA5;
+$gray500: #B3B7BC;
+$gray400: #D7DADD;
+$gray300: #E5E8ED;
+$gray200: #F4F5F6;
+$gray100: #F9F9F9;
+
+@mixin font($ff, $fs, $lh, $color) {
+    font-family: $ff;
+    font-size: $fs;
+    line-height: $lh;
+    color: $color;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+    font-family: sans-serif;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+    display: block;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+label, span {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 10px;
+    margin: 0 auto;
+}

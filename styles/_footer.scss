@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    padding: 80px 0 80px;
+    background-color: $gray900;
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 895px;
+    }
+
+    &__item {
+        h6 {
+            margin-bottom: 12px;
+            @include font('Ubuntu-bold', 16px, 150%, $white);
+            letter-spacing: 1px;
+        }
+
+        span {
+            display: inline;
+            margin-bottom: 4px;
+            @include font('Ubuntu-regular', 16px, 160%, $white);
+        }
+
+        a {
+            display: inline;
+            opacity: 60%;
+            @include font('Ubuntu-regular', 16px, 160%, $white);
+        }
+    }
+}

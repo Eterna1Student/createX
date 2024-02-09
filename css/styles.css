@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Ubuntu-regular";
+  src: url("../fonts/ubuntu-r-webfont.woff2") format("woff2"), url("../fonts/ubuntu-r-webfont.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Ubuntu-bold";
+  src: url("../fonts/ubuntu-b-webfont.woff2") format("woff2"), url("../fonts/ubuntu-b-webfont.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Lato-black";
+  src: url("../fonts/lato-black-webfont.woff2") format("woff2"), url("../fonts/lato-black-webfont.woff") format("woff");
+  font-weight: 900;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  font-family: sans-serif;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+label, span {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 92px;
+}
+.header__nav {
+  width: 100%;
+  max-width: 447px;
+  margin: 0 auto 0 55px;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+}
+.header__item a {
+  transition: all ease 0.2s;
+  font-family: "Ubuntu-bold";
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.header__item a:hover {
+  color: #9A9CA5;
+}
+.header__contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 421px;
+}
+.header__contact a {
+  padding-left: 50px;
+}
+.header__contact a small {
+  transition: all ease 0.2s;
+  font-family: "Ubuntu-bold";
+  font-size: 14px;
+  line-height: 150%;
+  color: #424551;
+}
+.header__contact a span {
+  transition: all ease 0.2s;
+  font-family: "Ubuntu-regular";
+  font-size: 18px;
+  line-height: 150%;
+  color: #1E212C;
+}
+.header__contact a:hover small {
+  color: #9A9CA5;
+}
+.header__contact a:hover span {
+  color: #9A9CA5;
+}
+.header__number {
+  background-image: url(../images/header/iPhone.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.header__email {
+  background-image: url(../images/header/chat.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.footer {
+  width: 100%;
+  padding: 80px 0 80px;
+  background-color: #1E212C;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 895px;
+}
+.footer__item h6 {
+  margin-bottom: 12px;
+  font-family: "Ubuntu-bold";
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+.footer__item span {
+  display: inline;
+  margin-bottom: 4px;
+  font-family: "Ubuntu-regular";
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+.footer__item a {
+  display: inline;
+  opacity: 60%;
+  font-family: "Ubuntu-regular";
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+}/*# sourceMappingURL=styles.css.map */

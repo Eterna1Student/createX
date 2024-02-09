@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px; 
+
+    &__nav {
+        width: 100%;
+        max-width: 447px;
+        margin: 0 auto 0 55px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        a {
+            transition: all ease .2s;
+            @include font('Ubuntu-bold', 16px, 160%, $gray800);
+        }
+        a:hover {
+            color: $gray600;
+        }
+    }
+
+    &__contact {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 421px;
+
+        a {
+            padding-left: 50px;
+
+            small {
+                transition: all ease .2s;
+                @include font('Ubuntu-bold', 14px, 150%, $gray800);
+            }
+            span {
+                transition: all ease .2s;
+                @include font('Ubuntu-regular', 18px, 150%, $gray900);
+            }
+        }
+        a:hover {
+            small {
+                color: $gray600;
+            }
+            span {
+                color: $gray600;
+            }
+        }
+    }
+
+    &__number {
+        background-image: url(../images/header/iPhone.svg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+
+    &__email {
+        background-image: url(../images/header/chat.svg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+}
