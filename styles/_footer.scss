@@ -81,7 +81,15 @@
         background-color: $primary;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
+        border: 1px solid $primary;
+        transition: all ease .2s;
         cursor: pointer;
+    }
+
+    #footerSubmit:hover {
+        color: $primary;
+        background: none;
+        border: 1px solid $primary;
     }
 
     &__form-desc {
@@ -142,10 +150,30 @@
     }
 
     &__button {
+        display: flex !important;
+        align-items: flex-end;
+        justify-content: space-between;
         width: 129px;
         @include font('Ubuntu-regular', 14px, 150%, $white);
-        svg {
-            transform: translate(12px, 4px);
+
+        &_icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 4px;
+            background: $primary;
+            border: 1px solid $primary;
+            transition: all ease .2s;
         }
     }
+    &__button:hover &__button_icon {
+        background: none;
+        svg path {
+            fill: $primary;
+        }
+    }
+
+    
 }

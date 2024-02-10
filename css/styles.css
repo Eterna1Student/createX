@@ -200,7 +200,14 @@ label, span {
   background-color: #FF5A30;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  border: 1px solid #FF5A30;
+  transition: all ease 0.2s;
   cursor: pointer;
+}
+.footer #footerSubmit:hover {
+  color: #FF5A30;
+  background: none;
+  border: 1px solid #FF5A30;
 }
 .footer__form-desc {
   font-family: "Ubuntu-regular";
@@ -264,12 +271,29 @@ label, span {
   display: inline;
 }
 .footer__button {
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: space-between;
   width: 129px;
   font-family: "Ubuntu-regular";
   font-size: 14px;
   line-height: 150%;
   color: #FFFFFF;
 }
-.footer__button svg {
-  transform: translate(12px, 4px);
+.footer__button_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #FF5A30;
+  border: 1px solid #FF5A30;
+  transition: all ease 0.2s;
+}
+.footer__button:hover .footer__button_icon {
+  background: none;
+}
+.footer__button:hover .footer__button_icon svg path {
+  fill: #FF5A30;
 }/*# sourceMappingURL=styles.css.map */
