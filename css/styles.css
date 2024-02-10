@@ -114,11 +114,107 @@ label, span {
   padding: 80px 0 80px;
   background-color: #1E212C;
 }
+.footer__top {
+  display: flex;
+  margin-bottom: 49px;
+}
+.footer__contact {
+  width: 100%;
+  max-width: 735px;
+}
+.footer__logo {
+  display: inline-block;
+  margin-right: 4%;
+}
+.footer__links {
+  display: inline-flex;
+  gap: 18px;
+}
+.footer__link a svg g {
+  transition: all ease 0.2s;
+}
+.footer__link a:hover svg g {
+  opacity: 1;
+}
+.footer__description {
+  width: 100%;
+  max-width: 493px;
+  margin-top: 24px;
+  font-family: "Ubuntu-regular";
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 60%;
+}
+.footer__form-title {
+  margin-bottom: 24px;
+  font-family: "Ubuntu-bold";
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.footer__form {
+  width: 100%;
+  max-width: 495px;
+}
+.footer__form form {
+  display: flex;
+  width: 100%;
+  height: 44px;
+  margin-bottom: 16px;
+}
+.footer #footerEmail {
+  width: 74%;
+  padding: 11px 16px;
+  background-color: #424551;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  outline: none;
+  border: 1px solid #787A80;
+  font-family: "Ubuntu-regular";
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 60%;
+}
+.footer #footerEmail::-moz-placeholder {
+  font-family: "Ubuntu-regular";
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 60%;
+}
+.footer #footerEmail::placeholder {
+  font-family: "Ubuntu-regular";
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 60%;
+}
+.footer #footerSubmit {
+  width: 26%;
+  font-family: "Ubuntu-bold";
+  font-size: 14px;
+  line-height: 44px;
+  color: #FFFFFF;
+  background-color: #FF5A30;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+.footer__form-desc {
+  font-family: "Ubuntu-regular";
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 60%;
+}
 .footer__info {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 895px;
+  margin-bottom: 38px;
 }
 .footer__item h6 {
   margin-bottom: 12px;
@@ -143,4 +239,37 @@ label, span {
   font-size: 16px;
   line-height: 160%;
   color: #FFFFFF;
+  transition: all ease 0.2s;
+}
+.footer__item a:hover {
+  opacity: 100%;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer__copyrights {
+  display: flex;
+  justify-content: space-between;
+  width: 297px;
+}
+.footer__copyrights span {
+  font-family: "Ubuntu-regular";
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.footer__copyrights span, .footer__copyrights svg {
+  display: inline;
+}
+.footer__button {
+  width: 129px;
+  font-family: "Ubuntu-regular";
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.footer__button svg {
+  transform: translate(12px, 4px);
 }/*# sourceMappingURL=styles.css.map */
