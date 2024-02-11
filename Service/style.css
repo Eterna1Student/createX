@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.service{
+    background: rgb(244, 245, 247);
+    font-family: 'Ubuntu';
+    
+}
+.container{
+    max-width: 1230px;
+    width: 100%;
+    display: flex;
+    
+}
+
+.service__text{
+    margin-top: 152px;
+}
+
+.service__menu{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;  
+    color: rgb(66, 69, 81);
+}
+
+.service__menu_subtext{
+    color: rgb(154, 156, 165);
+}
+
+.service__title{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: rgb(30, 33, 44);
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+   
+}
+
+.service__subTitle{
+    height: 90px;
+    width: 600px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgb(120, 122, 128);
+    opacity: 60%;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.service__img{
+   
+    background-image: url(image/image.png);
+    width: 975px;
+    height: 600px;
+}
+;
+.block1{
+    display: flex;
+}
+.block2{
+    display: flex;
+}
+
+.products{
+    background: rgb(255, 255, 255);
+    font-family: 'Ubuntu'
+}
+
+.products__img{
+    margin-top: 120px;
+    width: 572px;
+    height: 420px;
+}
+
+.products__text{
+    margin-top: 196px;
+    margin-left: 60px;
+}
+
+.products__title{
+color: rgb(30, 33, 44);
+font-size: 32px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+}
+
+.products__subTitle{
+    width: 575px;
+    margin-top: 24px;
+    color: rgb(120, 122, 128);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.products__buttons{
+    width: 160px;
+    height: 44px;
+    margin-top: 48px;
+    border: 1px solid rgb(255, 90, 48);
+    border-radius: 4px;
+    color: rgb(255, 90, 48);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    background-color: white;
+}
+
+.products__text2{
+    margin-top: 209px;
+    margin-right: 80px;
+}
+
