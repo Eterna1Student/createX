@@ -1,0 +1,70 @@
+.header__item_work>a {
+    color: #FF5A30;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.hero {
+    padding-top: 152px;
+    background: url(../images/Work/background.png) no-repeat;
+    position: relative;
+    top: -90px;
+}
+
+.breadcrumbs {
+    display: inline-flex;
+    gap: 22px;
+    margin-bottom: 53px;
+}
+
+.breadcrumbs__link {
+    font-family: 'Ubuntu-regular';
+    font-size: 14px;
+    line-height: 150%;
+    color: #424551;
+}
+
+.breadcrumbs__link_active {
+    color: #9A9CA5;
+}
+
+.breadcrumbs__link::before {
+    content: '/';
+    position: relative;
+    left: -11px;
+}
+.breadcrumbs__link_home::before {
+    content: '';
+}
+
+h1 {
+    margin-bottom: 11px;
+    font-family: 'Ubuntu-bold';
+    font-size: 72px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #1E212C;
+}
+
+.hero__description {
+    max-width: 600px;
+    margin-bottom: 120px;
+    font-family: 'Ubuntu-regular';
+    font-size: 20px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+.hero__cards {
+    display: flex;
+    gap: 20px;
+}
+
+.hero__card {
+    width: 100%;
+    max-width: 230px;
+    height: 154px;
+    background: #fff;
+}
