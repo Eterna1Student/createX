@@ -66,5 +66,138 @@ h1 {
     width: 100%;
     max-width: 230px;
     height: 154px;
+    padding: 32px 0;
+    text-align: center;
     background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(30, 33, 44, 0.03), 0px 12px 10px rgba(154, 156, 165, 0.04), 0px 30px 24px rgba(154, 156, 165, 0.05), 0px 80px 80px rgba(154, 156, 165, 0.08);
+    transition: all ease .4s;
+}
+
+.hero__card>a>span {
+    margin-top: 16px;
+    font-family: 'Ubuntu-bold';
+    font-size: 16px;
+    line-height: 160%;
+    color: #9A9CA5;
+    transition: all ease .4s;
+}
+
+.hero__card:hover {
+    background: #FF5A30;
+    box-shadow: 0px 4px 4px rgba(30, 33, 44, 0.05), 0px 12px 10px rgba(255, 90, 48, 0.08), 0px 26px 24px rgba(255, 90, 48, 0.1), 0px 60px 80px rgba(255, 90, 48, 0.16);
+}
+
+.hero__card:hover>a>span {
+    color: #fff;
+}
+
+.hero__card>a>svg>path {
+    transition: all ease .4s;
+}
+
+.hero__card:hover>a>svg>path {
+    fill: #fff;
+}
+
+.hero__card>a>svg>g>path {
+    transition: all ease .4s;
+}
+
+.hero__card:hover>a>svg>g>path {
+    fill: #fff;
+}
+
+.works {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 120px;
+}
+
+.works__case {
+    max-width: 390px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(30, 33, 44, 0.03), 0px 12px 10px rgba(154, 156, 165, 0.04), 0px 30px 24px rgba(154, 156, 165, 0.05), 0px 80px 80px rgba(154, 156, 165, 0.08);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.works__image {
+    width: 100%;
+}
+
+.works__text {
+    display: flex;
+    width: 100%;
+    padding: 16px 20px 24px;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    transition: all ease .4s;
+    position: relative;
+    z-index: 1;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.works__title {
+    font-family: 'Ubuntu-bold';
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+
+.works__desc {
+    font-family: 'Ubuntu-regular';
+    font-size: 14px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+.case__btn {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 24px;
+    z-index: 0;
+    max-width: 172px;
+    background: #fff;
+    font-family: 'Ubuntu-bold';
+    font-size: 14px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #ff5a30;
+    border: 1px solid #ff5a30;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.case__btn:hover {
+    background: #ff5a30;
+    color: #fff;
+} 
+
+.works__case:hover .works__text {
+    transform: translateY(-85px);
+}
+
+.load-btn {
+    display: flex;
+    gap: 16px;
+    margin: 60px auto 0;
+    background: none;
+    cursor: pointer;
+}
+
+.load-btn>span {
+    font-family: 'Ubuntu-bold';
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
 }
