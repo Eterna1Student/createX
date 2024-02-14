@@ -23,7 +23,7 @@
 
 a, a:link, a:visited {
   text-decoration: none;
-  display: block;
+  display: block;                                                                  /*Залупа */
 }
 
 a:hover {
@@ -35,7 +35,7 @@ ul, ul li {
 }
 
 label, span {
-  display: block;
+  display: block;                                                                  /*Залупа */
 }
 
 .container {
