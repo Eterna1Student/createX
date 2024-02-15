@@ -201,3 +201,100 @@ h1 {
     line-height: 160%;
     color: #424551;
 }
+
+.client {
+    padding: 80px 0 110px;
+    background: linear-gradient(to bottom, #F4F5F6 55%, white 45%);
+}
+
+.reviews {
+    display: flex;
+}
+
+.reviews__text {
+    width: 100%;
+}
+
+.reviews__text>h2{
+    width: 100%;
+     margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Ubuntu-bold';
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.slide>img {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 24px;
+    border-radius: 40px;
+}
+
+.slide>p {
+    margin-bottom: 24px;
+    font-family: 'Ubuntu-regular';
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+}
+
+.slide>strong {
+    margin-bottom: 4px;
+    font-family: 'Ubuntu-bold';
+    font-size: 16px;
+    line-height: 160%;
+    color: #1E212C;
+}
+
+.slide>span {
+    font-family: 'Ubuntu-regular';
+    font-size: 14px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+.reviews__image {
+    width: 100%;
+    text-align: end;
+}
+
+.reviews__image>img {
+    width: 80.5%;
+}
+
+.brands {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.brands__title {
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Ubuntu-bold';
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+
+.brands__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.brands__item {
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all ease .2s;
+}
+
+.brands__item>img {
+    width: 100%;
+}
+
+.brands__item:hover {
+    filter: none;
+}
+
