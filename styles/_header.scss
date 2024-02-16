@@ -1,3 +1,12 @@
+a, a:link, a:visited  {
+    text-decoration: none;
+    display: block;
+}
+
+label, span {
+    display: block;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
