@@ -54,17 +54,23 @@
 }
 
 .service__img{
-   
     background-image: url(image/image.png);
     width: 975px;
     height: 600px;
 }
-;
+
 .block1{
     display: flex;
 }
 .block2{
     display: flex;
+}
+.block3{
+    display: flex;
+}
+.block4{
+    display: flex;
+    padding-bottom: 180px;
 }
 
 .products{
