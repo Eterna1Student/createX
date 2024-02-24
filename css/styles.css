@@ -111,15 +111,6 @@ label, span {
   background-repeat: no-repeat;
   background-position-y: center;
 }
-
-a, a:link, a:visited {
-  text-decoration: none;
-  display: block;
-}
-
-label, span {
-  display: block;
-}
 .preview {
   width: 100%;
   height: 988px;
@@ -377,7 +368,6 @@ span {
   font-size: 14px;
   line-height: 150%;
   color: #424551;
-
 }
 .form__name_input, .form__phone_input, .form__message_input {
   width: 260px;
@@ -625,6 +615,117 @@ svg {
 .portfolio__btn:hover {
   background-color: #FF7F50;
   color: #FFFAFA;
+}
+.brands {
+  width: 100%;
+  background-color: #F4F5F6;
+  padding: 80px 0 110px;
+}
+
+.brands__title {
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: 'Ubuntu-bold';
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+.brands__list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.brands__item {
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: all ease .2s;
+}
+.brands__item>img {
+  width: 100%;
+}
+
+.brands__item:hover {
+  filter: none;
+}
+. {
+  padding: 80px 0 110px;
+  background: linear-gradient(to bottom, #F4F5F6 55%, white 45%);
+}
+.reviews {
+  display: flex;
+  padding-top: 190px;
+}
+.reviews__text {
+  width: 100%;
+}
+.reviews__text>h2{
+  width: 100%;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: 'Ubuntu-bold';
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+.reviews__image {
+  width: 100%;
+  text-align: end;
+}
+.reviews__image>img {
+  width: 80.5%;
+}
+.swiper {
+   width: 100%;
+   max-width: 599px;
+ }
+.swiper-slide>img {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 24px;
+  border-radius: 40px;
+}
+.swiper-slide>p {
+  margin-bottom: 24px;
+  font-family: 'Ubuntu-regular';
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.swiper-slide>strong {
+  margin-bottom: 4px;
+  font-family: 'Ubuntu-bold';
+  font-size: 16px;
+  line-height: 160%;
+  color: #1E212C;
+}
+.swiper-slide>span {
+  font-family: 'Ubuntu-regular';
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+}
+.swiper-button-prev {
+  left: auto;
+  right: 50px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  top:auto;
+  bottom: -10px;
+}
+.swiper-button-prev::after {
+  content: '';
+  width: 18px;
+  height: 11px;
+  background: url(../images/Work/arrow_left.svg);
+}
+.swiper-button-next::after {
+  content: '';
+  width: 18px;
+  height: 11px;
+  background: url(../images/Work/arrow_right.svg);
 }
 .feedback {
   padding: 80px 0;
