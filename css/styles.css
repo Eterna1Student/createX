@@ -659,6 +659,7 @@ svg {
 }
 .reviews__text {
   width: 100%;
+  position: relative;
 }
 .reviews__text>h2{
   width: 100%;
