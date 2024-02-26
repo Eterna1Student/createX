@@ -9,9 +9,33 @@
     <link rel="stylesheet" href="./Work.css">
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="./WorkSwiper.js"></script>
+    <script defer src="../main.js"></script>
 </head>
 <body>
     <header>
+        <div class="burger" id="burger">
+            <div class="burger__menu">
+                <ul class="header__list header__list_burger">
+                    <li class="header__item"><a href="/">About Us</a></li>
+                    <li class="header__item"><a href="../Service/index.html">Services</a></li>
+                    <li class="header__item header__item_work"><a href="/">Work</a></li>
+                    <li class="header__item"><a href="/">News</a></li>
+                    <li class="header__item"><a href="/">Contacts</a></li>
+                    <li>
+                        <a class="header__number header__number_burger" href="tel:(405) 555-0128">
+                            <small>Call us</small>
+                            <span>(405) 555-0128</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__email header__email_burger" href="mailto:hello@createx.com">
+                            <small>Talk to us</small>
+                            <span>hello@createx.com</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="container">
             <div class="header" id="header">
                 <a class="logo" href="../index.html">
@@ -51,6 +75,14 @@
                         <small>Talk to us</small>
                         <span>hello@createx.com</span>
                     </a>
+                </div>
+
+                <div class="header__burger-btn" id="burgerBtn">
+                    <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7C0 6.44772 0.447715 6 1 6H21C21.5523 6 22 6.44772 22 7C22 7.55228 21.5523 8 21 8H1C0.447715 8 0 7.55228 0 7Z" fill="#1E212C"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13C0 12.4477 0.447715 12 1 12H21C21.5523 12 22 12.4477 22 13C22 13.5523 21.5523 14 21 14H1C0.447715 14 0 13.5523 0 13Z" fill="#1E212C"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H21C21.5523 0 22 0.447715 22 1C22 1.55228 21.5523 2 21 2H1C0.447715 2 0 1.55228 0 1Z" fill="#1E212C"/>
+                    </svg>                        
                 </div>
             </div>
         </div>

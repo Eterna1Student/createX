@@ -649,10 +649,10 @@ svg {
 .brands__item:hover {
   filter: none;
 }
-. {
+/* . {
   padding: 80px 0 110px;
   background: linear-gradient(to bottom, #F4F5F6 55%, white 45%);
-}
+} */
 .reviews {
   display: flex;
   padding-top: 190px;
