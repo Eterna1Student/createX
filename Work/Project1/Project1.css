@@ -126,10 +126,6 @@ h2 {
     transform: none;
   }
 
-  .gallery>.swiper-container>.swiper-button-next:hover::after {
-    
-  }
-
   .gallery>.swiper-container>.swiper-button-next {
     left: auto;
     right: 32px;

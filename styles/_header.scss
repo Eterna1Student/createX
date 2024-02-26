@@ -75,4 +75,93 @@ label, span {
         background-repeat: no-repeat;
         background-position-y: center;
     }
+
+    &__burger-btn {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        transition: all ease .2s;
+        cursor: pointer;
+    }
+
+    &__burger-btn:hover {
+        opacity: .6;
+    }
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+
+    .burger__menu {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        width: 220px;
+        height: 100vh;
+        background: #fff;
+
+        .header__list_burger {
+            flex-direction: column;
+            padding: 30px;
+
+            .header__number_burger {
+                margin: 40px 0 15px;
+            }
+
+            .header__number_burger,
+            .header__email_burger {
+                background: none;
+                small {
+                    transition: all ease .2s;
+                    @include font('Ubuntu-bold', 14px, 150%, $gray800);
+                }
+                span {
+                    transition: all ease .2s;
+                    @include font('Ubuntu-regular', 18px, 150%, $gray900);
+                }
+            }
+
+            .header__number_burger:hover,
+            .header__email_burger:hover {
+                small {
+                    color: $gray600;
+                }
+                span {
+                    color: $gray600;
+                }
+            }
+        }
+    }
+}
+
+.burger_active {
+    display: block;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        &__burger-btn {
+            display: flex;
+        }
+
+        &__nav {
+            display: none;
+        }
+        
+        &__contact {
+            display: none; 
+        }
+    }
 }
