@@ -692,7 +692,3 @@ svg {
 @keyframes p {
     from{--p:0}
 }
-
-body {
-    background:#f2f2f2;
-}
